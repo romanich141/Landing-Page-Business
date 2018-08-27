@@ -1,0 +1,18 @@
+.body,html {
+    margin:0;
+}
+.section-container {
+    max-width: 1700px;
+    margin: auto;
+}
+.section-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.p {
+    font-family: $font-p;
+    word-spacing: 1px;
+    letter-spacing: .3px;
+    line-height: 25px;
+    font-size: 1rem;
+}  

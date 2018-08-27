@@ -1,0 +1,93 @@
+.section-cards {
+    
+    background-color: $sc-cards-bg-color;
+    padding-top:8.4375rem;
+    padding-bottom:12.375rem;
+    & .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    & .p {
+        margin-bottom: 4.9rem;
+    }
+}
+.card {
+        transition-property: all;
+        transition-duration: .1s;
+        padding: 0 1.875rem 3.125rem 1.875rem;
+        & p {
+            font-family: $font-card;
+            font-size: 14px;
+            line-height: 5px;
+        }
+        & ul {
+            padding-top: 19px;
+            line-height: 17px;
+        }
+        & li {
+            font-family: $font-card;
+            font-size: 13.5px;
+            background-color: inherit;
+            opacity: .6;
+        }
+        & h4 {
+            padding-top:45px;
+            padding-bottom: 41px;   
+        }
+    } 
+ .card-deck {
+    max-width: 1170px;
+    margin:0 auto;  
+    }
+.card-price {
+    border-radius: 0px;
+    font-family: $font-card;
+    color:$card-price-color;
+    font-size: 60px;
+}
+.dollar-icon {
+    font-family: $font-card;
+    color:$card-dollar-icon-color;
+    font-size: 35px;
+}
+
+.card:hover {
+    background-color: $sc-cards-bg-color-hover;
+    transform: scaleY(1.10);
+}
+.card:hover .card-price,
+.card:hover .dollar-icon,
+.card:hover h4,
+.card:hover p,
+.card:hover ul,
+.card:hover .card-button {
+    transform: scaleY(.95);
+}
+.card:hover .card-price,
+.card:hover .dollar-icon,
+.card:hover h4,
+.card:hover p,
+.card:hover li,
+.card:hover .card-button
+ {
+    color:white;
+}
+
+
+@media (max-width:992px) {
+    .card-deck {
+        margin:0 150px;
+        & .card {
+            flex-basis: 100%;
+            margin-bottom: 10px;
+        }
+    }
+}
+@media (max-width:576px) {
+    .card-deck {
+        margin:0 10px;
+        & .card {
+            flex-basis: 100%; 
+        }
+    }
+}

@@ -1,0 +1,38 @@
+
+
+.footer-navbar .nav-item a {
+    font-size: $font-size-header-link;
+    text-transform:uppercase;
+    letter-spacing:-.15px;
+    color:$header-link-color;  
+}
+.nav-item a:hover {
+    color: $header-link-color-hover;
+}
+footer {
+     & .container {
+         padding-bottom:53px;
+     }
+}
+.footer-call {
+    font-size: 22px;
+    line-height: 15px;
+    & i {
+        transform: rotateY(180deg);
+        font-size: 18px;
+    }
+}
+.social-link {
+    color:#709CCA;
+    font-size: 18px;
+    margin-right: 17px;
+}
+.social-link:hover {
+    color:#FFC155;
+    
+}
+.footer-text {
+    background-color: #709DCA;
+    padding:17px 0;
+    color:white;
+}

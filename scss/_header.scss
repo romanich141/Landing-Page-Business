@@ -1,0 +1,27 @@
+.header {
+    max-width: 1170px;
+    margin: auto;
+    // padding:0;
+}
+.navigation {
+  padding:1.0625rem 0;
+ }
+.nav-item a {
+    font-size: $font-size-header-link;
+    text-transform:uppercase;
+    letter-spacing:-.15px;
+    color:$header-link-color;  
+}
+.nav-item a:hover {
+    color: $header-link-color-hover;
+}
+
+@media (max-width:1200px) {
+    .header {
+        padding:0 .625rem;
+    }
+    .nav-item a {
+        width: 100%;
+        text-align: center;
+    }
+}

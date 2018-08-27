@@ -1,0 +1,19 @@
+// fonts 
+$font-family-sans-serif:'Lato', sans-serif;
+// butons 
+$btn-padding-y:               12px;
+$btn-padding-x:               20px;
+$btn-line-height:             10px;
+// forms
+$font-size-base:.8125rem;
+$input-btn-padding-y:         .75rem;
+$input-btn-padding-x:         2.5625rem;
+.form-inline {
+    padding-left:25px !important;
+    padding-right:25px !important;
+}
+.price {
+    margin-left:0!important;
+    margin-right:0!important;
+    border-radius: 2px!important;
+}

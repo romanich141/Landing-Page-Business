@@ -1,0 +1,36 @@
+// section-request
+.section-request {
+    padding-top:100px;
+    background-color: $sc-request-bg-color;
+    & p {
+        font-family: $font-p;
+        margin-bottom: 1.875rem;
+        word-spacing: .0625rem;
+        letter-spacing: -0.15px;
+        line-height: 1.625rem;
+        font-size: 1rem;
+    }    
+    & i {
+        font-size: .9rem;
+        left: .9375rem;
+        top:.96875rem; 
+    }
+    & i:last-child {
+        transform: rotateX(180deg);
+    }
+}
+.slider {
+    top:4.125rem;
+    margin:0 .625rem;
+}
+
+@media (max-width:992px) {
+    
+    .form-inline {
+        display: block !important;
+    }
+    .send-form-button {
+        display: block;
+        margin:1.25rem auto;
+    }
+}

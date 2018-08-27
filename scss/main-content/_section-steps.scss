@@ -1,0 +1,40 @@
+// section-steps 
+.section-steps {
+    max-width: 1170px;
+    margin: auto;
+    padding:9.375rem 0;
+    & h5 {
+        padding-top: 5.9375rem;
+        font-size: 22px;
+    }
+    & .steps {
+        padding-top: 4.475rem;
+    }
+    & p {
+        margin-bottom:2.25rem;
+    }
+    & .arrow-first {
+        top: -30px;
+        right: -64px;
+    }
+    & .arrow-second {
+        transform: rotateX(180deg);
+        top: 65px;
+        right: -63px;
+    }
+    & .arrow-third {
+        top: -30px;
+        left: -64px;
+    }
+}
+
+@media (max-width:768px) {
+    .section-steps{
+        & .arrow {
+            display: none;
+        }
+        & h5 {
+            padding-top:1rem;
+        }
+    }
+}

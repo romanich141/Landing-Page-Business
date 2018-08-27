@@ -1,0 +1,26 @@
+// section-service
+.section-service {
+    max-width: 1200px;
+    margin: auto;
+    padding-top:10.9375rem;
+    padding-bottom:5.7rem;
+    & .p {
+        margin-bottom: 5.5rem;
+    }
+   & .col-md-6 {
+       margin-bottom:4.0625rem;
+   }
+   & .col-md-6:last-child {
+       margin-bottom: 0;
+   }
+   & .logo-service {
+       flex-basis: 5rem;
+       flex-shrink: 0;
+   }
+   & .content-service {
+       font-size: .8125rem;
+       font-family: $font-p;
+       padding-bottom:0;
+   }
+}
+
